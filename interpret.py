@@ -244,7 +244,7 @@ class Interpreter:
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python hl_interpreter.py path/to/source.HL")
+        print("Usage: python interpret.py path/to/source.HL")
         sys.exit(1)
 
     source_path = Path(sys.argv[1])
